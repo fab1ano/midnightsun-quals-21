@@ -13,10 +13,14 @@ I solved this challenge after the competition was over.
 ## The binary
 
 ### Shape-IDs
-0: Triangle
-1: Square
-2: Circle
-3: Polygon
+```C
+enum shape_ids {
+    triangle = 0,
+    square = 1,
+    circle = 2,
+    polygon = 3,
+};
+```
 
 ### Functions
 * `create(shape_type)` creates a new empty shape
